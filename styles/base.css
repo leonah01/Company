@@ -225,8 +225,8 @@ footer {
 }
 
 img {
-  width: 300px; /* Set a fixed width for the images */
-  height: 200px; /* Set a fixed height for the images */
+  max-width: 100%;
+  height: auto;
   object-fit: cover; /* Ensure the images maintain their aspect ratio and cover the specified dimensions */
   transition: transform 0.3s; /* Add a transition for the hover effect */
 }
